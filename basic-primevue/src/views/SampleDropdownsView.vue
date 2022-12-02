@@ -1,7 +1,7 @@
 <script setup>
 import Dropdown from 'primevue/dropdown';
 import { ref } from 'vue';
-import {uaeStates, uaeCities} from '@/services/statesAndCities.js'
+import {uaeStates, uaeCities} from '@/services/statesAndCities'
 
 const selectedState = ref();
 const selectedCity = ref();

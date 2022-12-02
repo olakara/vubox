@@ -6,8 +6,9 @@ import { RouterLink, RouterView } from 'vue-router'
   <header>
      <nav>
         <RouterLink to="/">Home</RouterLink> |
-        <RouterLink to="/dropdowns">Sample Dropdown</RouterLink>
-        <RouterLink to="/confirm">Confirm Dialog</RouterLink>
+         <RouterLink to="/dropdowns">Sample Dropdown</RouterLink>  |
+         <RouterLink to="/confirm">Confirm Dialog</RouterLink> |
+         <RouterLink to="/sidebar">Sidebar Page</RouterLink>  |    
       </nav>
   </header>
 

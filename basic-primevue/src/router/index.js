@@ -19,6 +19,11 @@ const router = createRouter({
       name: 'confirm',
       component: () => import('../views/ConfirmDialogView.vue'),
     },
+    {
+        path: '/sidebar',
+        name: 'sidebar',
+        component: () => import('../views/SideBarView.vue'),
+    },
   ],
 });
 
