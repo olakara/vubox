@@ -14,6 +14,11 @@ const router = createRouter({
       name: 'dropdowns',
       component: () => import('../views/SampleDropdownsView.vue'),
     },
+    {
+      path: '/confirm',
+      name: 'confirm',
+      component: () => import('../views/ConfirmDialogView.vue'),
+    },
   ],
 });
 
