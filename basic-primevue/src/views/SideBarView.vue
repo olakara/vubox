@@ -1,6 +1,6 @@
 <script setup>
 import {ref} from 'vue';
-import Sidebar from 'primevue/sidebar';
+import Sidebar from 'primevue/sidebar/sfc';
 import Button from 'primevue/button/sfc';
 
 const visibleRight= ref(false);

@@ -1,5 +1,5 @@
 <script setup>
-import Dropdown from 'primevue/dropdown';
+import Dropdown from 'primevue/dropdown/sfc';
 import { ref } from 'vue';
 import {uaeStates, uaeCities} from '@/services/statesAndCities'
 

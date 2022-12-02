@@ -20,9 +20,14 @@ const router = createRouter({
       component: () => import('../views/ConfirmDialogView.vue'),
     },
     {
-        path: '/sidebar',
-        name: 'sidebar',
-        component: () => import('../views/SideBarView.vue'),
+      path: '/sidebar',
+      name: 'sidebar',
+      component: () => import('../views/SideBarView.vue'),
+    },
+    {
+      path: '/tabs',
+      name: 'tabs',
+      component: () => import('../views/TabsPageView.vue'),
     },
   ],
 });
